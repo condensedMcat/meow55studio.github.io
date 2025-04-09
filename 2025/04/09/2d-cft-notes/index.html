@@ -1,9 +1,9 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>二维共形场论 | 喵五五 · 知识仓库</title><meta name="author" content="condensedMcat"><meta name="copyright" content="condensedMcat"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="共形变换共性不变的场在我们的领域，用于描述系统在二级相变时的临界现象。首先我们先探明什么是共形变换。 对变换的描述与分析手段对于一般的坐标变换而言，其度规跟随变换有如下行为：$$g_{\mu\nu}(x)\to g’{\mu \nu}(x’)&#x3D;\frac{\partial x^\alpha}{x’^\mu}\frac{\partial x^\beta}{x’^\nu}g{\mu\nu}(">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>二维共形场论 | 喵五五 · 知识仓库</title><meta name="author" content="condensedMcat"><meta name="copyright" content="condensedMcat"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="共形变换共性不变的场在我们的领域，用于描述系统在二级相变时的临界现象。首先我们先探明什么是共形变换。 对变换的描述与分析手段对于一般的坐标变换而言，其度规跟随变换有如下行为：  g_{\mu\nu}(x)\to g&#39;_{\mu \nu}(x&#39;)&#x3D;\frac{\partial x^\alpha}{x&#39;^\mu} \frac{\partial x^\beta}{x&#39;^\nu}g_{\mu\nu}(x)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="二维共形场论">
 <meta property="og:url" content="https://condensedmcat.github.io/2025/04/09/2d-cft-notes/index.html">
 <meta property="og:site_name" content="喵五五 · 知识仓库">
-<meta property="og:description" content="共形变换共性不变的场在我们的领域，用于描述系统在二级相变时的临界现象。首先我们先探明什么是共形变换。 对变换的描述与分析手段对于一般的坐标变换而言，其度规跟随变换有如下行为：$$g_{\mu\nu}(x)\to g’{\mu \nu}(x’)&#x3D;\frac{\partial x^\alpha}{x’^\mu}\frac{\partial x^\beta}{x’^\nu}g{\mu\nu}(">
+<meta property="og:description" content="共形变换共性不变的场在我们的领域，用于描述系统在二级相变时的临界现象。首先我们先探明什么是共形变换。 对变换的描述与分析手段对于一般的坐标变换而言，其度规跟随变换有如下行为：  g_{\mu\nu}(x)\to g&#39;_{\mu \nu}(x&#39;)&#x3D;\frac{\partial x^\alpha}{x&#39;^\mu} \frac{\partial x^\beta}{x&#39;^\nu}g_{\mu\nu}(x)">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://condensedmcat.github.io/img/butterfly-icon.png">
 <meta property="article:published_time" content="2025-04-09T05:00:00.000Z">
@@ -162,43 +162,51 @@
   isToc: true,
   pageType: 'post'
 }</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/meow55studio.github.io/"><span class="site-name">喵五五 · 知识仓库</span></a><a class="nav-page-title" href="/meow55studio.github.io/"><span class="site-name">二维共形场论</span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">二维共形场论</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-04-09T05:00:00.000Z" title="发表于 2025-04-09 00:00:00">2025-04-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-04-09T14:50:30.897Z" title="更新于 2025-04-09 09:50:30">2025-04-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/meow55studio.github.io/categories/%E5%87%9D%E8%81%9A%E6%80%81%E7%90%86%E8%AE%BA/">凝聚态理论</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/meow55studio.github.io/categories/%E5%87%9D%E8%81%9A%E6%80%81%E7%90%86%E8%AE%BA/%E5%85%B1%E5%BD%A2%E5%9C%BA%E8%AE%BA/">共形场论</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="共形变换"><a href="#共形变换" class="headerlink" title="共形变换"></a>共形变换</h1><p>共性不变的场在我们的领域，用于描述系统在二级相变时的临界现象。首先我们先探明什么是共形变换。</p>
-<h2 id="对变换的描述与分析手段"><a href="#对变换的描述与分析手段" class="headerlink" title="对变换的描述与分析手段"></a>对变换的描述与分析手段</h2><p>对于一般的坐标变换而言，其度规跟随变换有如下行为：<br>$$<br>g_{\mu\nu}(x)\to g’<em>{\mu \nu}(x’)&#x3D;\frac{\partial x^\alpha}{x’^\mu}<br>\frac{\partial x^\beta}{x’^\nu}g</em>{\mu\nu}(x)<br>$$</p>
-<p>那么对于共形变换，我们要求度规在坐标变换下变$\Omega(x)$倍，即：<br>$$g_{\mu\nu}(x)\to g’<em>{\mu\nu}(x’)&#x3D;\Omega(x)g</em>{\mu\nu}(x)$$</p>
-<p>这导致如下几个等价的结果：</p>
+<h2 id="对变换的描述与分析手段"><a href="#对变换的描述与分析手段" class="headerlink" title="对变换的描述与分析手段"></a>对变换的描述与分析手段</h2><p>对于一般的坐标变换而言，其度规跟随变换有如下行为：</p>
+<script type="math/tex; mode=display">
+g_{\mu\nu}(x)\to g'_{\mu \nu}(x')=\frac{\partial x^\alpha}{x'^\mu}
+\frac{\partial x^\beta}{x'^\nu}g_{\mu\nu}(x)</script><p>那么对于共形变换，我们要求度规在坐标变换下变$\Omega(x)$倍，即：</p>
+<script type="math/tex; mode=display">g_{\mu\nu}(x)\to g'_{\mu\nu}(x')=\Omega(x)g_{\mu\nu}(x)</script><p>这导致如下几个等价的结果：</p>
 <ul>
 <li><p>共形变换是保角变换</p>
 </li>
-<li><p>无穷小共形变换满足如下关系：<br>$$\partial_\mu\epsilon_\nu+\partial_\nu\epsilon_\mu<br>&#x3D;\frac{2}{d}(\partial\cdot\epsilon)\eta_{\mu\nu}$$</p>
-</li>
+<li><p>无穷小共形变换满足如下关系：</p>
+<script type="math/tex; mode=display">\partial_\mu\epsilon_\nu+\partial_\nu\epsilon_\mu
+    =\frac{2}{d}(\partial\cdot\epsilon)\eta_{\mu\nu}</script></li>
 <li><p>d维的共形变换可以被归为以下几类：</p>
-<p>1、平移； 2、旋转； 3、标度（拉伸）；<br>4、特殊共形变换$\epsilon^\mu&#x3D;b^\mu x^2-2x_\mu b\cdot x$</p>
+<p>1、平移； 2、旋转； 3、标度（拉伸）；<br>4、特殊共形变换$\epsilon^\mu=b^\mu x^2-2x_\mu b\cdot x$</p>
 </li>
 </ul>
-<h2 id="二维上再做一次"><a href="#二维上再做一次" class="headerlink" title="二维上再做一次"></a>二维上再做一次</h2><p>二维是特殊的，源于二维的上述限制很强，而且我们有复分析作为工具，对于二维的无穷小<br>变化，共形条件转变为柯西黎曼条件：<br>$$\partial_1\epsilon_1&#x3D;\partial_2\epsilon_2;\quad\partial_1\epsilon_2&#x3D;-\partial_2\epsilon_1$$</p>
-<p>此时的1、2是复数坐标下的实、虚部。考虑共形代数的生成元：<br>$$l_n&#x3D;-z^{n+1}\partial_z;\quad \bar{l}<em>n&#x3D;-\bar{z}^{n+1}\partial</em>{\bar{z}}$$</p>
-<p>他们满足如下代数：<br>$$[l_m,l_n]&#x3D;(m-n)l_{m+n};\quad [\bar{l}_m,\bar{l}<em>n]&#x3D;(m-n)\bar{l}</em>{m+n};\quad [l,\bar{l}]&#x3D;0$$</p>
-<p>注意到共轭两生成元之间对易，那么共性代数可以被直和分解进而分开考虑。</p>
-<p>如果我们要求变换在整个黎曼面（$\mathbb{C}\cup \infty$）上都有定义，就考虑用$z,z\to\frac{1}{w}$展开变换，即：<br>$$v(z)&#x3D;-\sum_na_nl_n\begin{cases}<br>    \sum_{n}z^{n+1}\partial_z\<br>    \sum_{n}a_n(-\frac{1}{w})^{1+n}(\frac{d z}{dw})^{-1}\partial_w&#x3D;\sum_na_n(-\frac{1}{w})^{n-1}\partial_w\<br>\end{cases}$$</p>
-<p>然后从没有奇点的角度看出n被限定在了${-1,0,1}$这三者。我们把这三个n·对应的l（$\bar{l}$）·生成的变换·的群成为GLOBAL共形群。</p>
-<p>然后发现恰好，$l_{-1},\bar{l}_{-1}$生成平移；$l_0+\bar{l}_0$生成标度变换；$i(l_0-\bar{l}_0)$生成旋转；$l_1,\bar{l}_1$生成特例变换</p>
+<h2 id="二维上再做一次"><a href="#二维上再做一次" class="headerlink" title="二维上再做一次"></a>二维上再做一次</h2><p>二维是特殊的，源于二维的上述限制很强，而且我们有复分析作为工具，对于二维的无穷小<br>变化，共形条件转变为柯西黎曼条件：</p>
+<script type="math/tex; mode=display">\partial_1\epsilon_1=\partial_2\epsilon_2;\quad\partial_1\epsilon_2=-\partial_2\epsilon_1</script><p>此时的1、2是复数坐标下的实、虚部。考虑共形代数的生成元：</p>
+<script type="math/tex; mode=display">l_n=-z^{n+1}\partial_z;\quad \bar{l}_n=-\bar{z}^{n+1}\partial_{\bar{z}}</script><p>他们满足如下代数：</p>
+<script type="math/tex; mode=display">[l_m,l_n]=(m-n)l_{m+n};\quad [\bar{l}_m,\bar{l}_n]=(m-n)\bar{l}_{m+n};\quad [l,\bar{l}]=0</script><p>注意到共轭两生成元之间对易，那么共性代数可以被直和分解进而分开考虑。</p>
+<p>如果我们要求变换在整个黎曼面（$\mathbb{C}\cup \infty$）上都有定义，就考虑用$z,z\to\frac{1}{w}$展开变换，即：</p>
+<script type="math/tex; mode=display">v(z)=-\sum_na_nl_n\begin{cases}
+    \sum_{n}z^{n+1}\partial_z\\
+    \sum_{n}a_n(-\frac{1}{w})^{1+n}(\frac{d z}{dw})^{-1}\partial_w=\sum_na_n(-\frac{1}{w})^{n-1}\partial_w\\
+\end{cases}</script><p>然后从没有奇点的角度看出n被限定在了${-1,0,1}$这三者。我们把这三个n·对应的l（$\bar{l}$）·生成的变换·的群成为GLOBAL共形群。</p>
+<p>然后发现恰好，$l<em>{-1},\bar{l}</em>{-1}$生成平移；$l_0+\bar{l}_0$生成标度变换；$i(l_0-\bar{l}_0)$生成旋转；$l_1,\bar{l}_1$生成特例变换</p>
 <p>Remark一下，我们之前在d维没有特别提这四类之外的变换，是因为只有二维有所谓LOCAL的变换，这也是二维另一个特殊之处。</p>
-<p>我们记$l_0&#x2F;\bar{l}_0$的本征值为$h&#x2F;\bar{h}$，然后记标度变换&#x2F;旋转变换的本征值为$\Delta&#x3D;h+\bar{h}&#x2F;\quad s&#x3D;h-\bar{h}$，这也与我们的物理习惯相符合。</p>
+<p>我们记$l_0/\bar{l}_0$的本征值为$h/\bar{h}$，然后记标度变换/旋转变换的本征值为$\Delta=h+\bar{h}/\quad s=h-\bar{h}$，这也与我们的物理习惯相符合。</p>
 <h1 id="共形不变的场"><a href="#共形不变的场" class="headerlink" title="共形不变的场"></a>共形不变的场</h1><p>讨论完共形变换，接下来讨论变换作用的对象：共形场。我们如下定义一个考虑共形不变性的理论：</p>
 <ul>
 <li><p>首先，考虑的对象是一堆场${A_i}$，每一个成员的导数也都在这堆场里。</p>
 </li>
-<li><p>其次，拎出特殊的成员，称之为”准原”（quasi-primary）场，满足在GLOBAL的共形变换（这个规约只对二维有区分作用，因为仅二维有非GLOBAL的变换）下：<br>$$\phi_j(x)\to|\frac{\partial x’}{\partial x}|^{\Delta_j&#x2F; d}\phi_j(x’)<br>&#x3D;(\mbox{雅可比})^{\mbox{场的维度}\div\mbox{维度}}\mbox{准原场}’$$</p>
-</li>
+<li><p>其次，拎出特殊的成员，称之为”准原”（quasi-primary）场，满足在GLOBAL的共形变换（这个规约只对二维有区分作用，因为仅二维有非GLOBAL的变换）下：</p>
+<script type="math/tex; mode=display">\phi_j(x)\to|\frac{\partial x'}{\partial x}|^{\Delta_j/ d}\phi_j(x')
+    =(\mbox{雅可比})^{\mbox{场的维度}\div\mbox{维度}}\mbox{准原场}'</script></li>
 <li><p>由此，可以规定选定的这堆场，要么是准原场，要么是它的导数，要么能被前两者线性组合生成。</p>
 </li>
 <li><p>特别地，规定真空态$|0\rangle$是GLOBAL变换的不动点。</p>
 </li>
 </ul>
-<p>注意到准原场的关联函数已经有了比较强的限制，注意到一个在所有共形变换下都不变的坐标量，交比$\frac{r_{ij}r_{kl}}{r_{ik}r_{jl}}$。</p>
+<p>注意到准原场的关联函数已经有了比较强的限制，注意到一个在所有共形变换下都不变的坐标量，交比$\frac{r<em>{ij}r</em>{kl}}{r<em>{ik}r</em>{jl}}$。</p>
 <p>直接显式的写出共形场的条件，然后去一个个带入四种全局共形不变性，得到一些约束，这里略过。</p>
-<h2 id="二维上再做一次-1"><a href="#二维上再做一次-1" class="headerlink" title="二维上再做一次"></a>二维上再做一次</h2><p>我们在二维上规定所谓”共形权为（$h,\bar{h}$）”的”原”场，是对”所有的”共形变换f，都使得：<br>$$\Phi(z,\bar{z})\to(\partial_zf)^h(\partial_{\bar{z}}\bar{f})^{\bar{h}}\Phi(f(z),\bar{f}(\bar{z}))\quad \mbox{即：}<br>\quad \Phi(z,\bar{z})dz^h d\bar{z}^{\bar{h}}\mbox{是不变量}$$</p>
-<p>依之前的经验，使用无穷小变换展开，得到原场的无穷小变化量：<br>$$\delta_{\epsilon,\bar{\epsilon}}\Phi(z,\bar{z})&#x3D;[(h\partial\epsilon+\epsilon\partial)+(\mbox{共轭})]\Phi(z,\bar{z})$$</p>
-<p>相似地，引入交比，然后应用那几个GLOBAL的不变性，可以得到关联函数的信息，这里略。</p>
+<h2 id="二维上再做一次-1"><a href="#二维上再做一次-1" class="headerlink" title="二维上再做一次"></a>二维上再做一次</h2><p>我们在二维上规定所谓”共形权为（$h,\bar{h}$）”的”原”场，是对”所有的”共形变换f，都使得：</p>
+<script type="math/tex; mode=display">\Phi(z,\bar{z})\to(\partial_zf)^h(\partial_{\bar{z}}\bar{f})^{\bar{h}}\Phi(f(z),\bar{f}(\bar{z}))\quad \mbox{即：}
+\quad \Phi(z,\bar{z})dz^h d\bar{z}^{\bar{h}}\mbox{是不变量}</script><p>依之前的经验，使用无穷小变换展开，得到原场的无穷小变化量：</p>
+<script type="math/tex; mode=display">\delta_{\epsilon,\bar{\epsilon}}\Phi(z,\bar{z})=[(h\partial\epsilon+\epsilon\partial)+(\mbox{共轭})]\Phi(z,\bar{z})</script><p>相似地，引入交比，然后应用那几个GLOBAL的不变性，可以得到关联函数的信息，这里略。</p>
 <h2 id="能动张量相关"><a href="#能动张量相关" class="headerlink" title="能动张量相关"></a>能动张量相关</h2><p>收到Noether定理的启发，我们有对称性就有守恒量。但这里我们甚至不知道什么叫”时间”，定义时间再找守恒量是我们接下来要做的。</p>
 <p>我们最先考虑的是”径向的量子化”，即把复平面的径向外为时间的推移方向，而圆周则是有着周期性边界条件的空间。这带来以下结果：</p>
 <ul>
@@ -207,28 +215,37 @@
 <li><p>物理上，由于径向是时间，那么此时标度（拉伸）操作，就是往前推时间，那其生成子就是哈密顿量。</p>
 </li>
 </ul>
-<p>回忆能动张量的概念，我们用它来刻画进行无穷小坐标变换时，作用量随着变换的变化：<br>$$x\to x+\epsilon \Longrightarrow\delta S[\phi]&#x3D;\int d^2xT_{\mu\nu}\partial^\mu\epsilon^\nu(x)$$</p>
-<p>我们可以继续用”四钟GLOBAL变换”，来观察一下能动张量：<br>$$T_{\mu\nu}\Longrightarrow\begin{cases}<br>    \mbox{Lorentz不变性}\Longrightarrow\mbox{对称且梯度为0}\<br>    \mbox{标度不变性}\Longrightarrow\mbox{无迹}<br>\end{cases}$$</p>
-<p>那么二维中，T的独立矩阵元只有$T_{zz}$和它的bar版本了，那作用量变化可以写成：<br>$$\delta S&#x3D;\int d^2x (T_{zz}\partial^z\epsilon^z+\mbox{共轭})<br>&#x3D; \int d^2x (T_{zz}g^{z\bar{z}}\partial_{\bar{z}}\epsilon^z+\mbox{共轭})$$</p>
-<p>由路径积分的定义，我们可以把关联函数写成：<br>$$\langle \phi_1(z_1,\bar{z}_1)\cdots\phi_n(z_n,\bar{z}_n)\rangle<br>&#x3D;\int D\varphi \phi_1(z_1,\bar{z}_1)\cdots\phi_n(z_n,\bar{z}_n)e^{-S[\varphi]}$$</p>
-<p>作一个无穷小变换，带入$\delta S$，然后展开到$\epsilon&#x2F;\delta \phi$的一阶项，得到共形Ward恒等式（这里利用了$g^{z\bar{z}}&#x3D;2$）：<br>$$\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+<br>\langle\int d^2x 2(T_{zz}\bar{\partial}\epsilon+\mbox{共轭})\phi_1\cdots\phi_n\rangle&#x3D;0$$</p>
-<p>由格林公式，并令$2\pi T_{zz}&#x3D;-T(z)$，上式变为：<br>$$\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+\langle(\int_C dz\frac{1}{i}\epsilon(z)T_{zz}<br>-\int_Cd\bar{z}\frac{1}{i}\bar{\epsilon}(\bar{z})T_{\bar{z}\bar{z}})\phi_1\cdots \phi_n\rangle&#x3D;0$$</p>
-<p>进一步，我们可以把积分路径改写，成分开地圈出取$\phi_i$的点的小路径的积分的和：<br>$$\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+<br>[\sum_i \int_{C_i} dz\frac{1}{2\pi i}\epsilon(z)\langle T(z)\phi_1\cdots\phi_n\rangle+\mbox{共轭}]&#x3D;0$$</p>
-<p>然后就能得到，在求平均的括号中：<br>$$\delta \phi_i&#x3D;-\int_{C_i}dz\frac{1}{2\pi i}\epsilon(z)T(z)\phi_i+\mbox{共轭}$$</p>
-<p>回忆我们之前推到过的，原场随无穷小变换的变化量（$h\partial\epsilon(w)\phi(w,\bar{w})+\epsilon(w)\partial\phi(w,\bar{w})+\mbox{共轭}$），带入上式左侧。<br>瞪出在这种绕着$z_i$的小路径中，$T\phi$可以被写成（带入验证发现可以）：<br>$$T\phi_i(z_i,\bar{z}_i)&#x3D;\frac{h_i}{(z-z_i)^2}\phi(z_i,\bar{z}_i)+\frac{1}{z-z_i}\partial\phi_i(z_i,\bar{z}_i)+\mbox{不奇异的}$$</p>
-<p>这种描述两个算符$A(z)B(w)$，在$z\to w$时，乘积的奇异性的展开方式，被称为”算子积展开”。从计算上而言，我们一般有的方法是对于原场的Ward公式做法，和我略掉的看关联函数的做法。</p>
+<p>回忆能动张量的概念，我们用它来刻画进行无穷小坐标变换时，作用量随着变换的变化：</p>
+<script type="math/tex; mode=display">x\to x+\epsilon \Longrightarrow\delta S[\phi]=\int d^2xT_{\mu\nu}\partial^\mu\epsilon^\nu(x)</script><p>我们可以继续用”四钟GLOBAL变换”，来观察一下能动张量：</p>
+<script type="math/tex; mode=display">T_{\mu\nu}\Longrightarrow\begin{cases}
+    \mbox{Lorentz不变性}\Longrightarrow\mbox{对称且梯度为0}\\
+    \mbox{标度不变性}\Longrightarrow\mbox{无迹}
+\end{cases}</script><p>那么二维中，T的独立矩阵元只有$T_{zz}$和它的bar版本了，那作用量变化可以写成：</p>
+<script type="math/tex; mode=display">\delta S=\int d^2x (T_{zz}\partial^z\epsilon^z+\mbox{共轭})
+= \int d^2x (T_{zz}g^{z\bar{z}}\partial_{\bar{z}}\epsilon^z+\mbox{共轭})</script><p>由路径积分的定义，我们可以把关联函数写成：</p>
+<script type="math/tex; mode=display">\langle \phi_1(z_1,\bar{z}_1)\cdots\phi_n(z_n,\bar{z}_n)\rangle
+=\int D\varphi \phi_1(z_1,\bar{z}_1)\cdots\phi_n(z_n,\bar{z}_n)e^{-S[\varphi]}</script><p>作一个无穷小变换，带入$\delta S$，然后展开到$\epsilon/\delta \phi$的一阶项，得到共形Ward恒等式（这里利用了$g^{z\bar{z}}=2$）：</p>
+<script type="math/tex; mode=display">\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+
+\langle\int d^2x 2(T_{zz}\bar{\partial}\epsilon+\mbox{共轭})\phi_1\cdots\phi_n\rangle=0</script><p>由格林公式，并令$2\pi T_{zz}=-T(z)$，上式变为：</p>
+<script type="math/tex; mode=display">\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+\langle(\int_C dz\frac{1}{i}\epsilon(z)T_{zz}
+-\int_Cd\bar{z}\frac{1}{i}\bar{\epsilon}(\bar{z})T_{\bar{z}\bar{z}})\phi_1\cdots \phi_n\rangle=0</script><p>进一步，我们可以把积分路径改写，成分开地圈出取$\phi_i$的点的小路径的积分的和：</p>
+<script type="math/tex; mode=display">\sum_i\langle\phi_1\cdots\delta\phi_i\cdots\phi_n\rangle+
+[\sum_i \int_{C_i} dz\frac{1}{2\pi i}\epsilon(z)\langle T(z)\phi_1\cdots\phi_n\rangle+\mbox{共轭}]=0</script><p>然后就能得到，在求平均的括号中：</p>
+<script type="math/tex; mode=display">\delta \phi_i=-\int_{C_i}dz\frac{1}{2\pi i}\epsilon(z)T(z)\phi_i+\mbox{共轭}</script><p>回忆我们之前推到过的，原场随无穷小变换的变化量（$h\partial\epsilon(w)\phi(w,\bar{w})+\epsilon(w)\partial\phi(w,\bar{w})+\mbox{共轭}$），带入上式左侧。<br>瞪出在这种绕着$z_i$的小路径中，$T\phi$可以被写成（带入验证发现可以）：</p>
+<script type="math/tex; mode=display">T\phi_i(z_i,\bar{z}_i)=\frac{h_i}{(z-z_i)^2}\phi(z_i,\bar{z}_i)+\frac{1}{z-z_i}\partial\phi_i(z_i,\bar{z}_i)+\mbox{不奇异的}</script><p>这种描述两个算符$A(z)B(w)$，在$z\to w$时，乘积的奇异性的展开方式，被称为”算子积展开”。从计算上而言，我们一般有的方法是对于原场的Ward公式做法，和我略掉的看关联函数的做法。</p>
 <h1 id="中心荷"><a href="#中心荷" class="headerlink" title="中心荷"></a>中心荷</h1><p>中心荷，用于描述：引入宏观标度时产生的、共形对称性的”软破缺”，是一种量子反常（共形反常）。</p>
-<p>同时，考虑的场不只有原场，还有次级场。次级场拥有高于二阶的极点。而刚刚说到的能动张量就是例子，<br>用全局的共形不变性，可以限制其二点关联函数（就是我略掉的部分），为：<br>$$\langle T(z)T(w) \rangle&#x3D;\frac{c&#x2F;2}{(z-w)^4},\quad \mbox{共轭}$$</p>
-<p>又由于T本身是（2，0）型的张量，因此其算子积展开为（注意我们套用Ward式时，是直觉性地期待T是(2,0)型的原场，是”然后发现它是对的、符合-Virasco代数的-“）：<br>$$T(z)T(w)&#x3D;\frac{c&#x2F;2}{(z-w)^4}+\frac{2T(w)}{(z-w)^2}+\frac{\partial T(w)}{z-w}+\cdots$$</p>
-<p>这里的c是所谓的中心荷，事实上，这种操作基于无穷维李代数的中心扩张。我们接下来先用T的展开的角度，得到这个代数的物理内涵，之后在下一大部分中，我们重构一下整套理论，把前因后果捋清楚。</p>
+<p>同时，考虑的场不只有原场，还有次级场。次级场拥有高于二阶的极点。而刚刚说到的能动张量就是例子，<br>用全局的共形不变性，可以限制其二点关联函数（就是我略掉的部分），为：</p>
+<script type="math/tex; mode=display">\langle T(z)T(w) \rangle=\frac{c/2}{(z-w)^4},\quad \mbox{共轭}</script><p>又由于T本身是（2，0）型的张量，因此其算子积展开为（注意我们套用Ward式时，是直觉性地期待T是(2,0)型的原场，是”然后发现它是对的、符合-Virasco代数的-“）：</p>
+<script type="math/tex; mode=display">T(z)T(w)=\frac{c/2}{(z-w)^4}+\frac{2T(w)}{(z-w)^2}+\frac{\partial T(w)}{z-w}+\cdots</script><p>这里的c是所谓的中心荷，事实上，这种操作基于无穷维李代数的中心扩张。我们接下来先用T的展开的角度，得到这个代数的物理内涵，之后在下一大部分中，我们重构一下整套理论，把前因后果捋清楚。</p>
 <h1 id="思考的逻辑？"><a href="#思考的逻辑？" class="headerlink" title="思考的逻辑？"></a>思考的逻辑？</h1><p>上述从能动张量的逻辑，于我个人而言有一些断点，不是很好接受，感觉有太多”见合”的部分。在我看来，在考虑将上述理论变为，是时候重新梳理一下整个理论体系。</p>
 <h2 id="Zamolodchikov的C定理：怎么算c"><a href="#Zamolodchikov的C定理：怎么算c" class="headerlink" title="Zamolodchikov的C定理：怎么算c"></a>Zamolodchikov的C定理：怎么算c</h2><p>我们考虑共形不变性不是没有原因的。如果学过凝聚态里的重整化，就会知道临界系统具有标度不变性。那么什么时候这个不变性能被提升为共形不变性呢？在二维中，C定理给出了答案，接下来是这个定理的内容：</p>
 <ul>
-<li><p>存在函数$c(g)&gt;0$使得：<br>$$\frac{dc}{dt}&#x3D;\beta^i(g)\frac{\delta c(g)}{\delta g^i}\le 0$$<br>且仅在重整化群的不动点($g&#x3D;g^<em>,\beta^i(g^</em>)&#x3D;0$)处取等。</p>
+<li><p>存在函数$c(g)&gt;0$使得：</p>
+<script type="math/tex; mode=display">\frac{dc}{dt}=\beta^i(g)\frac{\delta c(g)}{\delta g^i}\le 0</script><p>且仅在重整化群的不动点($g=g^<em>,\beta^i(g^</em>)=0$)处取等。</p>
 </li>
-<li><p>C-函数在临界（关联长度发散）不动点稳定（$\delta c&#x2F;\delta g^i&#x3D;0$）。</p>
+<li><p>C-函数在临界（关联长度发散）不动点稳定（$\delta c/\delta g^i=0$）。</p>
 </li>
-<li><p>临界不动点”处”的二维场论，有无穷共形对称性，其生成子$L_n$形成Virasco代数，满足形如：<br>$$[L_n,L_m]&#x3D;(n-m)L_{n+m}+\frac{c}{12}(n^3-n)\delta_{n+m,0}$$的李括号关系。</p>
+<li><p>临界不动点”处”的二维场论，有无穷共形对称性，其生成子$L<em>n$形成Virasco代数，满足形如：<br>$$[L_n,L_m]=(n-m)L</em>{n+m}+\frac{c}{12}(n^3-n)\delta_{n+m,0}$$的李括号关系。</p>
 </li>
 <li><p>在临界不动点处，C-函数的值便是所谓的中心荷。这是用于区分不同的场论的重要工具。</p>
 </li>
@@ -238,4 +255,47 @@
 <p>Friedan从谱的角度出发：</p>
 <p>这些提供了找c的一个标准化流程，并表现了谱的重要性。当然，实际的计算还是要找T这样。</p>
 <h2 id="经典表示量子化带来的反常：c的含义"><a href="#经典表示量子化带来的反常：c的含义" class="headerlink" title="经典表示量子化带来的反常：c的含义"></a>经典表示量子化带来的反常：c的含义</h2><p>在最开始我们引入过小l，其构成Witt代数，是没有中心荷的。但我们在量子理论里用T弄出来的L，即Virasco代数，便有了中心荷。显然c的引入，来源于我们把一个几何上的对称纳入量子理论引起的修正。为什么会这样呢？</p>
-<h1 id="幺正性的要求"><a href="#幺正性的要求" class="headerlink" title="幺正性的要求"></a>幺正性的要求</h1><h1 id="离开不动点"><a href="#离开不动点" class="headerlink" title="离开不动点"></a>离开不动点</h1></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://condensedMcat.github.io">condensedMcat</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://condensedmcat.github.io/2025/04/09/2d-cft-notes/">https://condensedmcat.github.io/2025/04/09/2d-cft-notes/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://condensedMcat.github.io" target="_blank">喵五五 · 知识仓库</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/meow55studio.github.io/tags/CFT/">CFT</a><a class="post-meta__tags" href="/meow55studio.github.io/tags/%E4%BA%8C%E7%BB%B4/">二维</a><a class="post-meta__tags" href="/meow55studio.github.io/tags/Virasoro/">Virasoro</a></div><div class="post-share"><div class="social-share" data-image="/meow55studio.github.io/img/butterfly-icon.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/meow55studio.github.io/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/meow55studio.github.io/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">condensedMcat</div><div class="author-info-description">记录我、关于知识和生活</div><div class="site-data"><a href="/meow55studio.github.io/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/meow55studio.github.io/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/meow55studio.github.io/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B1%E5%BD%A2%E5%8F%98%E6%8D%A2"><span class="toc-number">1.</span> <span class="toc-text">共形变换</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E5%8F%98%E6%8D%A2%E7%9A%84%E6%8F%8F%E8%BF%B0%E4%B8%8E%E5%88%86%E6%9E%90%E6%89%8B%E6%AE%B5"><span class="toc-number">1.1.</span> <span class="toc-text">对变换的描述与分析手段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E4%B8%8A%E5%86%8D%E5%81%9A%E4%B8%80%E6%AC%A1"><span class="toc-number">1.2.</span> <span class="toc-text">二维上再做一次</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B1%E5%BD%A2%E4%B8%8D%E5%8F%98%E7%9A%84%E5%9C%BA"><span class="toc-number">2.</span> <span class="toc-text">共形不变的场</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E4%B8%8A%E5%86%8D%E5%81%9A%E4%B8%80%E6%AC%A1-1"><span class="toc-number">2.1.</span> <span class="toc-text">二维上再做一次</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%BD%E5%8A%A8%E5%BC%A0%E9%87%8F%E7%9B%B8%E5%85%B3"><span class="toc-number">2.2.</span> <span class="toc-text">能动张量相关</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%AD%E5%BF%83%E8%8D%B7"><span class="toc-number">3.</span> <span class="toc-text">中心荷</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%9D%E8%80%83%E7%9A%84%E9%80%BB%E8%BE%91%EF%BC%9F"><span class="toc-number">4.</span> <span class="toc-text">思考的逻辑？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Zamolodchikov%E7%9A%84C%E5%AE%9A%E7%90%86%EF%BC%9A%E6%80%8E%E4%B9%88%E7%AE%97c"><span class="toc-number">4.1.</span> <span class="toc-text">Zamolodchikov的C定理：怎么算c</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%8F%E5%85%B8%E8%A1%A8%E7%A4%BA%E9%87%8F%E5%AD%90%E5%8C%96%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%8F%8D%E5%B8%B8%EF%BC%9Ac%E7%9A%84%E5%90%AB%E4%B9%89"><span class="toc-number">4.2.</span> <span class="toc-text">经典表示量子化带来的反常：c的含义</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B9%BA%E6%AD%A3%E6%80%A7%E7%9A%84%E8%A6%81%E6%B1%82"><span class="toc-number">5.</span> <span class="toc-text">幺正性的要求</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A6%BB%E5%BC%80%E4%B8%8D%E5%8A%A8%E7%82%B9"><span class="toc-number">6.</span> <span class="toc-text">离开不动点</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/meow55studio.github.io/2025/04/09/2d-cft-notes/" title="二维共形场论">二维共形场论</a><time datetime="2025-04-09T05:00:00.000Z" title="发表于 2025-04-09 00:00:00">2025-04-09</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By condensedMcat</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/meow55studio.github.io/js/utils.js"></script><script src="/meow55studio.github.io/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+<h1 id="幺正性的要求"><a href="#幺正性的要求" class="headerlink" title="幺正性的要求"></a>幺正性的要求</h1><h1 id="离开不动点"><a href="#离开不动点" class="headerlink" title="离开不动点"></a>离开不动点</h1></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://condensedMcat.github.io">condensedMcat</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://condensedmcat.github.io/2025/04/09/2d-cft-notes/">https://condensedmcat.github.io/2025/04/09/2d-cft-notes/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://condensedMcat.github.io" target="_blank">喵五五 · 知识仓库</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/meow55studio.github.io/tags/CFT/">CFT</a><a class="post-meta__tags" href="/meow55studio.github.io/tags/%E4%BA%8C%E7%BB%B4/">二维</a><a class="post-meta__tags" href="/meow55studio.github.io/tags/Virasoro/">Virasoro</a></div><div class="post-share"><div class="social-share" data-image="/meow55studio.github.io/img/butterfly-icon.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/meow55studio.github.io/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/meow55studio.github.io/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">condensedMcat</div><div class="author-info-description">记录我、关于知识和生活</div><div class="site-data"><a href="/meow55studio.github.io/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/meow55studio.github.io/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/meow55studio.github.io/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B1%E5%BD%A2%E5%8F%98%E6%8D%A2"><span class="toc-number">1.</span> <span class="toc-text">共形变换</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E5%8F%98%E6%8D%A2%E7%9A%84%E6%8F%8F%E8%BF%B0%E4%B8%8E%E5%88%86%E6%9E%90%E6%89%8B%E6%AE%B5"><span class="toc-number">1.1.</span> <span class="toc-text">对变换的描述与分析手段</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E4%B8%8A%E5%86%8D%E5%81%9A%E4%B8%80%E6%AC%A1"><span class="toc-number">1.2.</span> <span class="toc-text">二维上再做一次</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B1%E5%BD%A2%E4%B8%8D%E5%8F%98%E7%9A%84%E5%9C%BA"><span class="toc-number">2.</span> <span class="toc-text">共形不变的场</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BB%B4%E4%B8%8A%E5%86%8D%E5%81%9A%E4%B8%80%E6%AC%A1-1"><span class="toc-number">2.1.</span> <span class="toc-text">二维上再做一次</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%BD%E5%8A%A8%E5%BC%A0%E9%87%8F%E7%9B%B8%E5%85%B3"><span class="toc-number">2.2.</span> <span class="toc-text">能动张量相关</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%AD%E5%BF%83%E8%8D%B7"><span class="toc-number">3.</span> <span class="toc-text">中心荷</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%9D%E8%80%83%E7%9A%84%E9%80%BB%E8%BE%91%EF%BC%9F"><span class="toc-number">4.</span> <span class="toc-text">思考的逻辑？</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Zamolodchikov%E7%9A%84C%E5%AE%9A%E7%90%86%EF%BC%9A%E6%80%8E%E4%B9%88%E7%AE%97c"><span class="toc-number">4.1.</span> <span class="toc-text">Zamolodchikov的C定理：怎么算c</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%8F%E5%85%B8%E8%A1%A8%E7%A4%BA%E9%87%8F%E5%AD%90%E5%8C%96%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%8F%8D%E5%B8%B8%EF%BC%9Ac%E7%9A%84%E5%90%AB%E4%B9%89"><span class="toc-number">4.2.</span> <span class="toc-text">经典表示量子化带来的反常：c的含义</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B9%BA%E6%AD%A3%E6%80%A7%E7%9A%84%E8%A6%81%E6%B1%82"><span class="toc-number">5.</span> <span class="toc-text">幺正性的要求</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%A6%BB%E5%BC%80%E4%B8%8D%E5%8A%A8%E7%82%B9"><span class="toc-number">6.</span> <span class="toc-text">离开不动点</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/meow55studio.github.io/2025/04/09/2d-cft-notes/" title="二维共形场论">二维共形场论</a><time datetime="2025-04-09T05:00:00.000Z" title="发表于 2025-04-09 00:00:00">2025-04-09</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By condensedMcat</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.5</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly/source/js/utils.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly/source/js/main.min.js"></script><div class="js-pjax"><script>(() => {
+  const loadMathjax = () => {
+    if (!window.MathJax) {
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          tags: 'none',
+        },
+        chtml: {
+          scale: 1.1
+        },
+        options: {
+          enableMenu: true,
+          renderActions: {
+            findScript: [10, doc => {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const display = !!node.type.match(/; *mode=display/)
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+                const text = document.createTextNode('')
+                node.parentNode.replaceChild(text, node)
+                math.start = {node: text, delim: '', n: 0}
+                math.end = {node: text, delim: '', n: 0}
+                doc.math.push(math)
+              }
+            }, '']
+          }
+        }
+      }
+
+      const script = document.createElement('script')
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+      script.id = 'MathJax-script'
+      script.async = true
+      document.head.appendChild(script)
+    } else {
+      MathJax.startup.document.state(0)
+      MathJax.texReset()
+      MathJax.typesetPromise()
+    }
+  }
+
+  btf.addGlobalFn('encrypt', loadMathjax, 'mathjax')
+  window.pjax ? loadMathjax() : window.addEventListener('load', loadMathjax)
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
